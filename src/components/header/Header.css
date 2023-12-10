@@ -1,0 +1,12 @@
+.header__title,
+.header__subtitle {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 40px 0 15px;
+}
+
+.header__subtitle {
+  font-size: 18px;
+}

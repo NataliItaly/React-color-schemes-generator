@@ -1,0 +1,40 @@
+.colors-scheme {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto auto;
+  justify-content: center;
+  gap: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 15px 10px 10px;
+  margin-bottom: 20px;
+}
+
+.colors-scheme__title {
+  grid-column: 1 / -2;
+  text-align: left;
+  font-size: 20px;
+}
+
+.colors-scheme__delete-btn {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px 10px auto;
+  background: transparent url(../../../public/delete-icon.svg) no-repeat center /
+    25px;
+  grid-column: -2/ -1;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.colors-scheme__delete-btn:hover {
+  filter: opacity(0.6);
+}
+
+@media (max-width: 380px) {
+  .colors-scheme {
+    gap: 7px;
+  }
+}

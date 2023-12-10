@@ -1,0 +1,33 @@
+.color-item {
+  display: grid;
+  grid-template-rows: 300px auto auto;
+  gap: 10px;
+}
+
+.color-item__bg {
+  width: 100%;
+  height: 300px;
+}
+
+.color-item__data {
+  cursor: pointer;
+}
+
+.color-item__title {
+  margin: 0;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+}
+
+.color-item__subtitle {
+  font-size: 12px;
+  text-align: center;
+  align-self: end;
+}
+
+@media (max-width: 380px) {
+  .color-item__title {
+    font-size: 12px;
+  }
+}
